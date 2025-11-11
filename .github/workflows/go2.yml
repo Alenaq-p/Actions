@@ -2,7 +2,7 @@ name: Go
 
 on:
   push:
-    branches: ["main"]
+    branches: ["new_workflow"]
 
 jobs:
 
@@ -25,5 +25,4 @@ jobs:
 
     - name: Test
       run: go test -v ./...
-
  
